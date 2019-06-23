@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+
+# The par file is compressed in greek.par.zip or greek.par.tar.xz
+nlp/TreeTagger/lib/greek.par
+
+# Connection to the server
+rdfy/util/options.properties
