@@ -12,7 +12,7 @@
 
 <#mappingVideo>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$"
   	];
@@ -42,7 +42,7 @@
 
 <#mappingSignedLinguisticExpression>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$"
   	];
@@ -82,7 +82,7 @@
 
 	<#mappingWrittenLinguisticExpression>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$"
   	];
@@ -113,7 +113,7 @@
 
 <#mappingSegment>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$.Segments[*]"
   	];
@@ -144,7 +144,7 @@
 
 <#mappingForm>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$.Segments[*]"
   	];
@@ -166,7 +166,7 @@
 
 <#mappingLexicalEntry>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$.Segments[*]"
   	];
@@ -206,7 +206,7 @@
 
  <#mappingSense>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$.Segments[*].Synsets[*]"
   	];
@@ -229,7 +229,7 @@
 
  <#mappingSynset>
   	rml:logicalSource [
-    	rml:source "C:\Users\Pablo\Desktop\easy-resources\rdfy\source\json\videoSL.json";
+    	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
     	rml:iterator "$.Segments[*].Synsets[*]"
   	];
