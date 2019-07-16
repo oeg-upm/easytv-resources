@@ -63,6 +63,7 @@
   ];
 
   
+    
   rr:predicateObjectMap [
    rr:predicate rdfs:label;
    rr:objectMap [
@@ -71,16 +72,25 @@
  ];
  
   rr:predicateObjectMap [
-    rr:predicate etvonto:decomposition;
+    rr:predicate etvonto:firstItem;
     rr:objectMap [
       rr:template "http://easytv.linkeddata.es/resource/LinguisticExpressionItem/{Sls}{UrlID}1";
       rr:termType rr:IRI
+    ]
+  ];
+  
+  
+  rr:predicateObjectMap [
+    rr:predicate etvonto:hasComponent;
+    rr:objectMap [
+      rr:parentTriplesMap <#mappingSegment>; #check
     ]
   ]
 
  .
 
-	<#mappingWrittenLinguisticExpression>
+
+<#mappingWrittenLinguisticExpression>
   	rml:logicalSource [
     	rml:source "C:\Users\Pablo\Desktop\EasyTV\projects\easytv-resources\rdfy\source\json\videoSL.json";
     	rml:referenceFormulation ql:JSONPath;
@@ -135,7 +145,7 @@
   rr:predicateObjectMap [
     rr:predicate etvonto:hasForm;
     rr:objectMap [
-      rr:template "http://easytv.linkeddata.es/resource/LinguisticExpressionItem/{Sls}{UrlID}{Order}{Word}";
+      rr:template "http://easytv.linkeddata.es/resource/Form/{Sls}{UrlID}{Order}{Word}";
       rr:termType rr:IRI
     ]
   ]
